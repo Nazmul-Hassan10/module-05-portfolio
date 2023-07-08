@@ -1,29 +1,59 @@
-
-body{
-    font-family: 'Open Sans', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
-/* nav bar */
-.header-container{
-    display: flex;
-    justify-content: space-between;
-}
-.mary{
+.nav_container{
     color: #181818;
-text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #FFF8F3;
+    width: 1600px;
+    height: 837px;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
     
-}   
+}
+#mary{
+    margin-top: 51px;
+    margin-left: 226px;
+}
 .text-primary{
-    font-weight: bold;
     color: #FD6E0A;
 }
-.bar_right{
+.skills_container{
+    margin-top: 68px;
+    margin-right: 230px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+
     display: flex;
-    margin: 60px;
-    list-style: none;
-    padding-right: 15px;
-    justify-content: space-between;
+}
+#a_a{
+    padding: 18px 30px;
+    font-weight: 700;
+
+}
+section a{
+    text-decoration: none;
+    color: #474747;
+}
+.btn_hireMe{
+    border-radius: 5px;
+    padding: 18px 36px;
+    font-size: 20px;
+    font-style: normal;
+    color: #474747;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 64px;
 }
