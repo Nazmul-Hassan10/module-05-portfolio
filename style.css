@@ -1,0 +1,29 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav bar */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.mary{
+    color: #181818;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    
+}   
+.text-primary{
+    font-weight: bold;
+    color: #FD6E0A;
+}
+.bar_right{
+    display: flex;
+    margin: 60px;
+    list-style: none;
+    padding-right: 15px;
+    justify-content: space-between;
+}
