@@ -2,12 +2,22 @@
     margin: 0;
     padding: 0;
 }
+.first_sec{
+    color: #181818;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #FFF8F3;
+    width: 100%;
+    
+    font-family: Open Sans;
+    line-height: normal; 
+    height: 100vh;
+}
 .nav_container{
     color: #181818;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: #FFF8F3;
-    width: 1600px;
-    height: 837px;
+    width: 100%;
+    
     font-family: Open Sans;
     font-size: 45px;
     font-style: normal;
@@ -46,6 +56,9 @@ section a{
     text-decoration: none;
     color: #474747;
 }
+.first_sec{
+    height: 800px;
+}
 .btn_hireMe{
     border-radius: 5px;
     padding: 18px 36px;
@@ -56,4 +69,54 @@ section a{
     background-color: #FD6E0A;
     width: 150px;
     height: 64px;
+}
+/* 2nd part */
+.banner{
+    margin-top: -0px;
+    background-color: #FFF8F3;
+    display: flex;
+    
+}
+.opo{
+    margin-top: 150px;
+    margin-left: 226px;
+    margin-bottom: -80px;
+    font-family: Open Sans;
+    color:  #474747;
+}
+.greeting{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.banner_title{
+    font-size: 70px;
+    font-weight: 800;
+}
+.btn_primary{
+    background-color: #FD6E0A;
+    padding: 12px 26px;
+    border-radius: 2px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 40px;
+}
+.banner_btn{
+    color: #FD6E0A;
+    font-weight: 600;
+    padding: 12px 36px;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-left: 50px;
+    border: 2px solid #FD6E0A;
+}
+.profile{
+    display: flex;
+    height: 676px;
+    flex-shrink: 0;
+    margin-top: -650px;
+    margin-left: 1400px;
+    
 }
