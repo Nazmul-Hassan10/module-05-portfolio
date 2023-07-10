@@ -75,6 +75,9 @@ section a{
     margin-top: -0px;
     background-color: #FFF8F3;
     display: flex;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
 }
 .opo{
@@ -119,4 +122,53 @@ section a{
     margin-top: -650px;
     margin-left: 1400px;
     
+}
+.main_sub_div{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.card{
+    background-color: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Open Sans;
+}
+.about_me{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 130px 0 80px 0;
+}
+.explain_myself{
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about_info_container{
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.about_info{
+    
+    padding: 0 18px;
+}
+.info_description{
+    font-weight: bold;
+    padding: 15px 0;
+}
+.main_programs{
+    display: flex;
 }
