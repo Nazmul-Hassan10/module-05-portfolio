@@ -169,6 +169,7 @@ section a{
     font-weight: bold;
     padding: 15px 0;
 }
+/* 3rd */
 .main_programs_container{
     font-family: Open Sans;
 }
@@ -186,6 +187,7 @@ section a{
     padding: 15px;
     margin-right: 65px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border: 2px solid #FD6E0A;
 }
 .main_programs{
     display: flex;
@@ -193,4 +195,94 @@ section a{
     margin-bottom: 150px;
     justify-content: center;
     
+}
+/* 4th part */
+
+.summery_headline{
+    text-align: center;
+    font-size: 36px;
+    font-family: Open Sans;
+}
+.sub_summery_container{
+    display: flex;
+    font-family: Open Sans;
+    justify-content: space-around;
+    
+}
+.my_edu{
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: -300px;
+
+}
+.my_exp{
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+    margin-right: 180px;
+}
+.efg{
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sub_title{
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 0;
+}
+.place_at{
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    padding: 10px 0;
+}
+.details{
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 10px 0;
+}
+.underline{
+    border-bottom: 3px solid #D1D1D1;
+}
+.div_download{
+    display: flex;
+    justify-content: center;
+}
+.download_cv{
+    background-color: #FD6E0A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    height: 780px;
 }
